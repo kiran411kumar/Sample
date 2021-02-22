@@ -12,6 +12,6 @@ public class DemoController {
 
     @GetMapping("/{name}")
     public String getGreetings(@PathVariable String name) {
-        return "Hello Openshit application demo after applying web hook in github from "+name;
+        return "Openshit application demo after applying web hook in github from "+name;
     }
 }
